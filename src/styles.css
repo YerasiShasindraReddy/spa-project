@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container{
+    padding:15px;
+}
+
+
+
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+p:hover,h3:hover,h4:hover,h5:hover,h6:hover,ul li:hover{
+    text-shadow: 2px 2px 4px #ccc;
+}
+h4{
+    color:#424242;
+    font-weight: normal !important;
+    
+}
+ul li,h4,.for-font h4,.for-font h4 b,h6{
+    font-family: 'Roboto Slab', serif !important;
+}
+h3{
+ color:#d8a789;
+}
+.head-line{
+    border-radius: 4px;
+    background-color: #f37121;
+    color:#fff;
+    text-transform: uppercase;
+    width:fit-content;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+@media(max-width:959px){
+    .head-line{
+        font-size: 16px !important;
+    }
+    img{
+        margin-bottom:10px !important;
+    }
+    h3{
+        font-size: 16px !important;
+    }
+    h4{
+        font-size:16px !important;
+    }
+    *,b,p{
+        line-height: 26px !important;
+    }
+}
+@media(min-width:960px){
+    h3{
+        font-size: 20px !important;
+    }
+    h4{
+        font-size:18px !important;
+    }
+    .head-line{
+        font-size: 16px !important;
+    }
+    *,b,p{
+        line-height: 30px !important;
+    }
+}
